@@ -1,0 +1,50 @@
+# Credentials & secrets
+.credentials.json
+
+# Machine-specific config (permissions, MCP tokens, account data)
+.config.json
+.config.json.backup.*
+settings.local.json
+mcp-needs-auth-cache.json
+
+# Session & cache (ephemeral)
+debug/
+session-env/
+shell-snapshots/
+cache/
+paste-cache/
+history.jsonl
+stats-cache.json
+statsig/
+todos/
+backups/
+file-history/
+usage-data/
+telemetry/
+ide/
+
+# Plugin caches & marketplaces (keep installed_plugins.json and known_marketplaces.json)
+plugins/cache/
+plugins/.install-manifests/
+plugins/blocklist.json
+plugins/install-counts-cache.json
+plugins/marketplaces/
+
+# Projects: only sync memory/ folders, ignore session transcripts
+projects/*/*.jsonl
+projects/*/sessions-index.json
+projects/*/*/*.jsonl
+projects/*/subagents/
+projects/*/tool-results/
+projects/*/*/subagents/
+projects/*/*/tool-results/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Plans (session-specific)
+plans/
+
+# Tasks (session-specific)
+tasks/

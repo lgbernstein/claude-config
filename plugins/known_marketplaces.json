@@ -1,0 +1,26 @@
+{
+  "claude-plugins-official": {
+    "source": {
+      "source": "github",
+      "repo": "anthropics/claude-plugins-official"
+    },
+    "installLocation": "/Users/larrybernstein/.claude/plugins/marketplaces/claude-plugins-official",
+    "lastUpdated": "2026-02-26T06:55:44.011Z"
+  },
+  "dair-academy-plugins": {
+    "source": {
+      "source": "github",
+      "repo": "dair-ai/dair-academy-plugins"
+    },
+    "installLocation": "/Users/larrybernstein/.claude/plugins/marketplaces/dair-academy-plugins",
+    "lastUpdated": "2026-02-04T20:53:21.168Z"
+  },
+  "anthropic-agent-skills": {
+    "source": {
+      "source": "git",
+      "url": "https://github.com/anthropics/skills.git"
+    },
+    "installLocation": "/Users/larrybernstein/.claude/plugins/marketplaces/anthropic-agent-skills",
+    "lastUpdated": "2026-02-21T21:37:02.904Z"
+  }
+}
