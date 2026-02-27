@@ -5,14 +5,13 @@
 #   curl -sL https://raw.githubusercontent.com/lgbernstein/claude-config/main/setup.sh | bash
 #
 # Prerequisites:
-#   1. SSH key added to GitHub (github.com/settings/keys)
-#   2. git installed
-#   3. Claude Code installed (npm install -g @anthropic-ai/claude-code)
+#   1. git installed
+#   2. Claude Code installed (npm install -g @anthropic-ai/claude-code)
 
 set -e
 
 TARGET="$HOME/.claude"
-REPO="git@github.com:lgbernstein/claude-config.git"
+REPO="https://github.com/lgbernstein/claude-config.git"
 
 echo "=== Claude Code Config Setup ==="
 
