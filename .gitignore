@@ -39,6 +39,9 @@ projects/*/tool-results/
 projects/*/*/subagents/
 projects/*/*/tool-results/
 
+# Sync log (machine-specific)
+sync.log
+
 # macOS
 .DS_Store
 **/.DS_Store
