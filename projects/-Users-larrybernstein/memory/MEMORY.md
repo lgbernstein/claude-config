@@ -24,6 +24,7 @@
 - **Logs**: `~/.typingmind-mcp/connector.log`
 - **Manual control**: `launchctl stop/start com.typingmind.mcp-connector`
 - **n8n instance**: `http://192.168.7.244:5678`
+- **Installed on**: iMac + MacBook (both running). MacBook uses Homebrew node (`/opt/homebrew/bin/node`) not nvm.
 
 ## TypingMind Tana Assistant Agent
 - Custom agent in TypingMind named **"Tana Assistant"**
@@ -60,8 +61,9 @@
 - **iMac**: installed via `brew install tailscale`, daemon started via `sudo bash -c 'tailscaled > /tmp/tailscale.log 2>&1 &'`
 - **Mini**: installed via `brew install tailscale`, started via `sudo brew services start tailscale`
 - **MacBook**: installed via `brew install tailscale`, started via `sudo brew services start tailscale`
-- **SSH works**: passwordless SSH via keys (`ssh larrybernstein@100.116.70.17`)
-- **MacBook SSH key**: `~/.ssh/id_ed25519` (ed25519, added to Mini's authorized_keys 2026-03-01)
+- **SSH works**: MacBook → Mini and MacBook → iMac (passwordless via `~/.ssh/id_ed25519`)
+- **MacBook SSH key**: `~/.ssh/id_ed25519` (ed25519, added to Mini + iMac authorized_keys 2026-03-01)
+- **iMac SSH**: `ssh larrybernstein@100.81.206.109` works from MacBook
 - **SSH tunnel LaunchAgent** on iMac: `~/Library/LaunchAgents/com.ollama.tunnel.plist` — forwards `localhost:11434` → Mini's Ollama via Tailscale
 - **TypingMind endpoint**: `http://localhost:11434/v1/chat/completions` (goes through SSH tunnel → Tailscale → Mini)
 
