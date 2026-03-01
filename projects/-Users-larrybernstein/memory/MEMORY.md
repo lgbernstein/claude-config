@@ -65,6 +65,14 @@
 - **SSH tunnel LaunchAgent** on iMac: `~/Library/LaunchAgents/com.ollama.tunnel.plist` — forwards `localhost:11434` → Mini's Ollama via Tailscale
 - **TypingMind endpoint**: `http://localhost:11434/v1/chat/completions` (goes through SSH tunnel → Tailscale → Mini)
 
+## Claude Config Sync (All 3 Machines)
+- `~/.claude/` is a git repo synced to `https://github.com/lgbernstein/claude-config.git`
+- **Auto-sync LaunchAgent** installed on all 3 machines: `~/Library/LaunchAgents/com.claude.sync.plist`
+- Runs `~/.claude/sync.sh` every hour + on login — fully automatic, no manual steps needed
+- Manual sync anytime: `~/.claude/sync.sh` (pull + push), or `sync.sh pull` / `sync.sh push`
+- `sync.log` is gitignored (machine-specific)
+- Syncs: CLAUDE.md, tana-ids.md, memory/, settings, commands, agents, hooks, plugins
+
 ## Networking Issue (Unresolved)
 - iMac cannot make new outbound TCP/ICMP connections to any LAN device (192.168.7.x)
 - Existing connections (e.g., SMB on port 445) continue to work
