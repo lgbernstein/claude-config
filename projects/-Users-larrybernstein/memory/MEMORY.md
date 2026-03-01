@@ -23,8 +23,12 @@
 - **Known bug**: TypingMind fails on tools with no parameters (e.g. `list_workspaces`) — sends empty string instead of `{}`. Tools with parameters (search_nodes, read_node, etc.) work fine.
 - **Logs**: `~/.typingmind-mcp/connector.log`
 - **Manual control**: `launchctl stop/start com.typingmind.mcp-connector`
+<<<<<<< Updated upstream
 - **n8n instance**: `http://192.168.7.244:5678`
 - **Installed on**: iMac + MacBook (both running). MacBook uses Homebrew node (`/opt/homebrew/bin/node`) not nvm.
+=======
+- **n8n instance**: `http://100.116.70.17:5678`
+>>>>>>> Stashed changes
 
 ## TypingMind Tana Assistant Agent
 - Custom agent in TypingMind named **"Tana Assistant"**

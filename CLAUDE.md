@@ -13,7 +13,7 @@
 
 ## Tech Infrastructure
 
-- **Mac Mini (192.168.7.244):** Docker, Ollama, local LLMs. Hosts the WellBase/CIA Postgres DB (`form5500-db` container). SSH accessible from iMac — see WellBase section for connection details.
+- **Mac Mini (100.116.70.17):** Docker, Ollama, local LLMs. Hosts the WellBase/CIA Postgres DB (`form5500-db` container). SSH accessible from iMac — see WellBase section for connection details.
 - **iMac:** Larry's primary workstation (where Claude Code runs)
 - **Voicebox:** Local TTS app (voicebox.sh) — open source, runs locally, exploring for Hungarian pronunciation practice
 
@@ -161,14 +161,14 @@ The data lives in a Postgres database on the Mac Mini, running in Docker.
 
 **Connection:**
 ```bash
-ssh 192.168.7.244 "export PATH=/usr/local/bin:/opt/homebrew/bin:\$PATH && docker exec form5500-db psql -U larry -d form5500 -c \"<SQL>\""
+ssh 100.116.70.17 "export PATH=/usr/local/bin:/opt/homebrew/bin:\$PATH && docker exec form5500-db psql -U larry -d form5500 -c \"<SQL>\""
 ```
 
 **Helper script** (create at session start if needed):
 ```bash
 cat << 'EOF' > /tmp/pgquery.sh
 #!/bin/bash
-ssh 192.168.7.244 "export PATH=/usr/local/bin:/opt/homebrew/bin:\$PATH && docker exec form5500-db psql -U larry -d form5500 -c \"$1\""
+ssh 100.116.70.17 "export PATH=/usr/local/bin:/opt/homebrew/bin:\$PATH && docker exec form5500-db psql -U larry -d form5500 -c \"$1\""
 EOF
 chmod +x /tmp/pgquery.sh
 # Usage: /tmp/pgquery.sh "SELECT count(*) FROM entity_master;"
