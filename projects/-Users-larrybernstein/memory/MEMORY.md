@@ -52,13 +52,16 @@
 - **Performance**: All 65 layers on GPU, Flash Attention enabled, ~30-40 tok/s (vs ~2-5 tok/s in Docker CPU mode)
 - **Old Docker container** `ollama-cpu` is stopped but not removed; docker-compose still needs updating to point services at `host.docker.internal:11434`
 
-## Tailscale VPN (iMac ↔ Mini)
-- **iMac IP**: `100.81.206.109` (Larry-iMac-Pro)
-- **Mini IP**: `100.116.70.17` (Larrys-Mac-mini)
+## Tailscale VPN (iMac ↔ Mini ↔ MacBook)
+- **iMac IP**: `100.81.206.109` (larry-imac-pro)
+- **Mini IP**: `100.116.70.17` (larrys-mac-mini)
+- **MacBook IP**: `100.88.188.43` (lgbs-macbook-pro)
 - **Account**: `lbern57@gmail.com` (free tier)
 - **iMac**: installed via `brew install tailscale`, daemon started via `sudo bash -c 'tailscaled > /tmp/tailscale.log 2>&1 &'`
 - **Mini**: installed via `brew install tailscale`, started via `sudo brew services start tailscale`
+- **MacBook**: installed via `brew install tailscale`, started via `sudo brew services start tailscale`
 - **SSH works**: passwordless SSH via keys (`ssh larrybernstein@100.116.70.17`)
+- **MacBook SSH key**: `~/.ssh/id_ed25519` (ed25519, added to Mini's authorized_keys 2026-03-01)
 - **SSH tunnel LaunchAgent** on iMac: `~/Library/LaunchAgents/com.ollama.tunnel.plist` — forwards `localhost:11434` → Mini's Ollama via Tailscale
 - **TypingMind endpoint**: `http://localhost:11434/v1/chat/completions` (goes through SSH tunnel → Tailscale → Mini)
 

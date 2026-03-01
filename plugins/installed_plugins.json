@@ -14,10 +14,10 @@
     "skill-creator@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/Users/larrybernstein/.claude/plugins/cache/claude-plugins-official/skill-creator/aa296ec81e8c",
-        "version": "aa296ec81e8c",
+        "installPath": "/Users/larrybernstein/.claude/plugins/cache/claude-plugins-official/skill-creator/55b58ec6e564",
+        "version": "55b58ec6e564",
         "installedAt": "2026-02-21T21:37:23.460Z",
-        "lastUpdated": "2026-02-21T21:37:23.460Z",
+        "lastUpdated": "2026-03-01T16:34:30.792Z",
         "gitCommitSha": "aa296ec81e8ccb49c9784f167c2c0aa625a86cec"
       }
     ],
