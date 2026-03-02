@@ -33,8 +33,12 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 - **n8n instance**: `http://192.168.7.244:5678`
 - **Installed on**: iMac + MacBook (both running). MacBook uses Homebrew node (`/opt/homebrew/bin/node`) not nvm.
+=======
+- **n8n instance**: `http://100.116.70.17:5678`
+>>>>>>> Stashed changes
 =======
 - **n8n instance**: `http://100.116.70.17:5678`
 >>>>>>> Stashed changes
