@@ -5,135 +5,7 @@
       "repo": "anthropics/claude-plugins-official"
     },
     "installLocation": "/Users/larrybernstein/.claude/plugins/marketplaces/claude-plugins-official",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     "lastUpdated": "2026-03-01T16:34:30.748Z"
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
-=======
-    "lastUpdated": "2026-03-01T06:14:17.241Z"
->>>>>>> Stashed changes
   },
   "dair-academy-plugins": {
     "source": {
@@ -150,5 +22,13 @@
     },
     "installLocation": "/Users/larrybernstein/.claude/plugins/marketplaces/anthropic-agent-skills",
     "lastUpdated": "2026-03-01T16:34:00.354Z"
+  },
+  "last30days-skill": {
+    "source": {
+      "source": "github",
+      "repo": "mvanhorn/last30days-skill"
+    },
+    "installLocation": "/Users/larrybernstein/.claude/plugins/marketplaces/last30days-skill",
+    "lastUpdated": "2026-03-16T00:00:00.000Z"
   }
 }
