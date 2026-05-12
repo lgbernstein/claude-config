@@ -1,0 +1,154 @@
+{
+  "claude-plugins-official": {
+    "source": {
+      "source": "github",
+      "repo": "anthropics/claude-plugins-official"
+    },
+    "installLocation": "/Users/larrybernstein/.claude/plugins/marketplaces/claude-plugins-official",
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    "lastUpdated": "2026-03-01T16:34:30.748Z"
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+=======
+    "lastUpdated": "2026-03-01T06:14:17.241Z"
+>>>>>>> Stashed changes
+  },
+  "dair-academy-plugins": {
+    "source": {
+      "source": "github",
+      "repo": "dair-ai/dair-academy-plugins"
+    },
+    "installLocation": "/Users/larrybernstein/.claude/plugins/marketplaces/dair-academy-plugins",
+    "lastUpdated": "2026-03-01T16:33:59.311Z"
+  },
+  "anthropic-agent-skills": {
+    "source": {
+      "source": "git",
+      "url": "https://github.com/anthropics/skills.git"
+    },
+    "installLocation": "/Users/larrybernstein/.claude/plugins/marketplaces/anthropic-agent-skills",
+    "lastUpdated": "2026-03-01T16:34:00.354Z"
+  }
+}
